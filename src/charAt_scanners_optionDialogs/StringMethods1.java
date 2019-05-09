@@ -21,7 +21,7 @@ for(int i=0;i< fruit.length();i++) {
 		//    HINT: .length()
 
 		// 4. Using a for loop, print one char at time to the console.
-		//    HINT: use .length() to determine how many loops
+		//    hbINT: use .length() to determine how many loops
 
 		
 		// 5. Pick a char inside your String, and use a loop to determine
