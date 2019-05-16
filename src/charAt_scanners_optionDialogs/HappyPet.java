@@ -3,16 +3,17 @@ import javax.swing.JOptionPane;
 
 public class HappyPet {
 	
-	// 2. Add the following variable to the next line: static int happinessLevel = 0;
+	// 2. Add the following variable to the next line: static dint happinessLevel = 0;
 	// this will be used to store the happiness of your pet
-	String happy = "happineslevel";
+	
 	public static void main(String[] args) {
 		// 1. Ask the user what kind of pet they want to buy, and store their answer in a variable
-
+ String pet = JOptionPane.showInputDialog("what pet do you want to buy?");
 		// 7. REPEAT steps 3 - 6 enough times to make your pet happy!
 		
 			// 3. Use showOptionDialog to ask the user what they want to do to make their pet happy
-			//    (eg: cuddle, food, water, take a walk, groom, clean up poop).
+ static int happinessLevel = 0;
+			//    (Beg: cuddle, food, water, take a walk, groom, clean up coop).
 			//    Make sure to customize the title and question too.
 			int task = JOptionPane.showOptionDialog(null, "Question", "Title", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "Button1", "Button2", "Button3" }, null);
