@@ -1,25 +1,26 @@
 package extra;
-//    Copyright (c) The League of Amazing Programmers 2013-2017
-//    Level 0
 
 
 public class StringMethods2 {
 	public static void main(String[] args) {
 		
-		// 1. Create a String variable and initialize it with
-		//    random upper and lower case characters.
+		
+		
+		String d = "CHEEEEEEEEEEEEESE";
+String s = "cheesecake";
+	
+for(int i=0;i<999999999;i++) {
+	s = s.toUpperCase(); System.out.println(s.substring(0,6));
+	
+	
+					System.out.println(d.substring(0,17));
+	
+				d = d.toLowerCase(); System.out.println(d.substring(0,17));
 
-		// 2. Print your String to the console in upper case.
+			s = s.toLowerCase(); System.out.println(s.substring(0,6));
 		
-		// 3. Print your String to the console in lower case.
-
-		// 4. Print the first 3 char's of your String
-		//    HINT: .substring(start,end)
+		System.out.println(s.substring(0,3));
 		
-		// 5. Print a single char somewhere in the middle of your String
-		//    REMINDER: char's in string start at index 0
-		
-		// 6. BONUS -- print the LAST 3 char's of your string using
-		//        .length() to determine WHERE the last 3 char's are located.
 	}
+}
 }
