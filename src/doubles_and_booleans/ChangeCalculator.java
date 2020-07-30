@@ -20,6 +20,17 @@ int n =	Integer.parseInt(JOptionPane.showInputDialog("how much nickels do you ha
 int d =	Integer.parseInt(JOptionPane.showInputDialog("how much dimes do you have??????"));
 
 int q =	Integer.parseInt(JOptionPane.showInputDialog("how much quarters do you have??????"));
+
+int one = Integer.parseInt(JOptionPane.showInputDialog("how much one dollar bills do you have??"));
+
+int five = Integer.parseInt(JOptionPane.showInputDialog("how much five dollar bills do you have??"));
+
+int ten = Integer.parseInt(JOptionPane.showInputDialog("how much ten dollar bills do you have??"));
+
+int twen = Integer.parseInt(JOptionPane.showInputDialog("how much twenty dollar bills do you have??"));
+
+int hun = Integer.parseInt(JOptionPane.showInputDialog("how much hundred dollar bills do you have??"));
+
 		// Convert their answer to an int using Integer.parseInt()
 
 		// Ask the user how many dimes they have, and convert their answer
@@ -32,6 +43,11 @@ double Total = 0.0;
 	Total+=n*.05;
 	Total+=d*.10;
 	Total+=q*.25;
+	Total+=one*1;
+	Total+=five*5;
+	Total+=ten*10;
+	Total+=twen*20;
+	Total+=hun*100;
 		// Tell the user how much money they have
 	JOptionPane.showMessageDialog(null, "you have $" +Total);
 
